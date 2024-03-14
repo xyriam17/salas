@@ -1,0 +1,163 @@
+/*---------- Basic global styles -----------*/
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #434343;
+}
+
+
+
+/*---------- NavBar styles -----------*/
+.navbar {
+    background: linear-gradient(90deg, black 0%, pink 50%, black 100%);
+    
+}
+
+.navbar-brand {
+    font-size: 30px;
+	font-weight: 600;
+    color: #E55ABE;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #e20ea6;
+    font-size: 18px;
+	font-weight: 500;
+}
+
+
+
+
+
+/*---------- Banner styles -----------*/
+
+   
+   
+#home {
+  margin-top: 100px;
+}
+.banner .row {
+  background-color: #E55ABE;
+}
+
+.title {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 2.2rem;
+    line-height: 1.5;
+}
+
+
+/*---------- About styles -----------*/
+#about {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+	  font-weight:300;
+}
+
+.img-thumbnail {
+  height: 70%;
+  width: 100%;
+
+}
+.text-width{
+  width: 60%;
+}
+
+
+
+
+
+
+
+/*---------- Music styles -----------*/
+#music {
+    width: 96%;
+    background-color: #E55ABE;
+   
+}
+
+.album-cover {
+    width: 120px;
+    height: 100px;
+    margin-left: 20%;
+}
+
+.audio-player {
+    display: block;
+}
+
+/*---------- Live styles -----------*/
+
+/*---------- Book styles -----------*/
+.contact {
+    background: #0e1313;
+  }
+
+  .contact .title {
+    font-size: 4rem;
+    font-weight: 400;
+    color: #E55ABE;
+    text-align: center;
+    margin-bottom: 5rem;
+    padding-top: 5%;
+  }
+
+  .contact .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-bottom: 20%;
+  }
+
+  .contact .social-media>a {
+    flex-wrap: wrap;
+    display: flex;
+    background:#434343;
+    height: 7.5rem;
+    width: 7.5rem;
+    margin: 0 1.5rem;
+    border-radius: .8rem;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 1rem solid rgba(0, 0, 0, 0);
+    transition: transform 0.5s;
+  }
+
+  .contact .social-media a i {
+    font-size: 3.5rem;
+    color:  #E55ABE;
+    transition: transform 0.5s;
+  }
+  
+
+  
+
+  .contact .social-media a:hover i {
+    transform: scale(0.90);
+  }
+
+  .contact .social-media a:hover .fa-instagram {
+    color: #f14843;
+  }
+
+  .contact .social-media a:hover .fa-facebook {
+    color: #3b5998;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    font-size: small;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(90deg, black 0%, pink 50%, black 100%);
+    color: #0e1313;
+    text-align: center;
+    
+   
+   
+  }
